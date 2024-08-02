@@ -18,6 +18,24 @@ Se siete a corto di idee per lo stile, potreste prendere spunto dallo screenshot
 
 
 
-//* Utilizzo un for per stampare dei numeri da 1 a 100
 
+
+//* Recupero gli elementi dal DOM
+const result = document.getElementById('result');
+console.log(result);
+
+
+
+//* Utilizzo un for per stampare dei numeri da 1 a 100, utilizzando Fizz per i multipli di 3, Buzz per i multipli di 5, e FizzBuzz per i multipli di entrambi
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else {
+        console.log(i);
+    }
+}
 
