@@ -14,33 +14,31 @@ nav {
 #result li {
     height: 100px;
     list-style-type: none;
-    border-radius: 20px;
-
 }
 
 .buzz {
-    background-image: url(../img/buzz.jpeg);
+    background-image: url(../img/viola-buzz.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .fizz {
-    background-image: url(../img/fizz.jpeg);
+    background-image: url(../img/fizz.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .fizz-buzz {
-    background-image: url(../img/fizz-buzz-icon.png);
+    background-image: url(../img/rosso-fizzbuzz.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .normal-items {
-    background-image: url(../img/nothing-special.jpeg);
+    background-image: url(../img/giallo-normal.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

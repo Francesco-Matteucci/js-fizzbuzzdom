@@ -55,11 +55,13 @@ for (let i = 1; i <= 100; i++) {
     listItems.textContent = content;
     listItems.className = className;
 
-    listItems.classList.add('col', 'g-4', 'd-flex', 'justify-content-center')
+    listItems.classList.add('col', 'g-4', 'd-flex', 'align-items-center', 'justify-content-center')
 
     //Aggiungo i li alla lista ul
     list.appendChild(listItems);
+
 }
+
 
 //Aggiungo la lista al div del DOM
 result.appendChild(list);
