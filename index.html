@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <header class="sticky-top container">
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/logo.jpg" class="img-fluid" alt="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,14 +42,27 @@
     </header>
     <div class="container text-center">
         <h1>Fizz-Buzz Dom</h1>
-        <div id="result"></div>
+        <div id="result" class="p-5">
+
+        </div>
     </div>
 
-
+    <footer class="pc">
+        <a href="https://github.com/Francesco-Matteucci" class="github"><ion-icon class="fa fa-github fa-3x"
+                aria-hidden="true" name="logo-github"></ion-icon></a>
+        <div class="copyright">
+            <p> Made by<a href="https://github.com/Francesco-Matteucci" target="_blank"> <span>&nbsp;francesco
+                        matteucci&nbsp;</span></a></p>
+        </div>
+    </footer>
+    <!-- SCRIPT -->
     <!-- Bootstrap script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- footer script -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- My script -->
     <script src="js/script.js"></script>
 </body>
