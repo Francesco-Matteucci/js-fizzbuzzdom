@@ -36,7 +36,7 @@ h1 {
     margin-top: 40px;
     background-color: #CED4DA;
     overflow-y: auto;
-    height: 800px;
+    height: calc(100vh - 378px);
 }
 
 #result li {
@@ -79,7 +79,7 @@ a:visited {
 }
 
 footer {
-    height: 148px;
+
     padding: 0.5rem;
     background-color: #efefef;
     text-align: center;
